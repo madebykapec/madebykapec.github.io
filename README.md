@@ -6,7 +6,8 @@ Google requires a home page and a privacy policy on an authorized domain before 
 
 - `index.html`: the brand site's home page (work in progress): the name, the emblem, a status line.
 - `assets/site.css`: the shared style (dark neon theme; animations off under `prefers-reduced-motion`).
-- `assets/mark.svg`: the emblem, also the favicon.
+- `assets/mark.svg`: the emblem (a shield with a targeting reticle in a neon hexagon), also the favicon.
+- `assets/mark-k.svg`: the earlier emblem (a circuit-trace K). To go back to it, copy it over `mark.svg`; the whole site as it was is the tag `emblem-k`.
 - `backup/index.html`: the app's home page (Branding: Application home page, `https://madebykapec.github.io/backup/`).
 - `backup/privacy.html`: the app's privacy policy (Branding: Application privacy policy link, `https://madebykapec.github.io/backup/privacy.html`).
 

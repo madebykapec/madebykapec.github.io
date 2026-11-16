@@ -17,21 +17,6 @@
   <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
     <polygon points="120,20 206.6,70 206.6,170 120,220 33.4,170 33.4,70" stroke="url(#edge)" stroke-width="3"/>
     <polygon points="120,36 192.7,78 192.7,162 120,204 47.3,162 47.3,78" stroke="#19f6ff" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="6 7"/>
-    <path d="M206.6 118 H180 L172 110" stroke="#ff2bd6" stroke-width="2"/>
-    <path d="M33.4 140 H58 L66 148" stroke="#ff2bd6" stroke-width="2"/>
-    <g stroke="#19f6ff" stroke-width="7">
-      <path d="M94 72 V168"/>
-      <path d="M94 126 L146 74"/>
-      <path d="M114 106 L146 138 V168"/>
-    </g>
-    <g fill="#06050c" stroke="#19f6ff" stroke-width="3">
-      <circle cx="94" cy="72" r="6"/>
-      <circle cx="94" cy="168" r="6"/>
-      <circle cx="146" cy="74" r="6"/>
-      <circle cx="146" cy="168" r="6"/>
-    </g>
-    <circle cx="170" cy="108" r="4" fill="#f8ef3a" stroke="none"/>
-    <circle cx="68" cy="150" r="3.5" fill="#ff2bd6" stroke="none"/>
     <g fill="#ff2bd6" stroke="none">
       <circle cx="120" cy="20" r="3.5"/>
       <circle cx="206.6" cy="70" r="3.5"/>
@@ -40,5 +25,20 @@
       <circle cx="33.4" cy="170" r="3.5"/>
       <circle cx="33.4" cy="70" r="3.5"/>
     </g>
+    <path d="M74 100 H58 L50 92" stroke="#ff2bd6" stroke-width="2"/>
+    <path d="M166 132 H182 L190 140" stroke="#ff2bd6" stroke-width="2"/>
+    <path d="M120 180 V194" stroke="#ff2bd6" stroke-width="2"/>
+    <path d="M120 60 L166 76 V118 C166 148 146 168 120 180 C94 168 74 148 74 118 V76 Z" stroke="#19f6ff" stroke-width="6"/>
+    <circle cx="120" cy="116" r="22" stroke="#ff2bd6" stroke-width="3.5"/>
+    <g stroke="#19f6ff" stroke-width="3.5">
+      <path d="M120 84 V100"/>
+      <path d="M120 132 V148"/>
+      <path d="M88 116 H104"/>
+      <path d="M136 116 H152"/>
+    </g>
+    <circle cx="120" cy="116" r="4.5" fill="#f8ef3a" stroke="none"/>
+    <circle cx="50" cy="92" r="3.5" fill="#ff2bd6" stroke="none"/>
+    <circle cx="190" cy="140" r="3.5" fill="#ff2bd6" stroke="none"/>
+    <circle cx="120" cy="196" r="3.5" fill="#ff2bd6" stroke="none"/>
   </g>
 </svg>
