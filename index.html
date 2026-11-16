@@ -3,23 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#06050c">
 <title>madebykapec</title>
-<style>
-  :root { --bg: #fdfdfc; --fg: #1d1d1b; --muted: #5c5c58; --link: #1f5fbf; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #171716; --fg: #ececea; --muted: #a3a39e; --link: #7fb0ff; } }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; }
-  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1rem; }
-  h1 { font-size: 1.6rem; margin: 0 0 1rem; }
-  p { margin: 0 0 1rem; }
-  footer { margin-top: 3rem; font-size: 0.9rem; color: var(--muted); }
-  a { color: var(--link); }
-</style>
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<main>
-  <h1>madebykapec</h1>
-  <p>This site is a work in progress.</p>
-  <footer><a href="backup/privacy.html">Privacy policy</a></footer>
+<div class="floor" aria-hidden="true"><div class="grid"></div></div>
+<main class="hero">
+  <h1 class="brand" data-text="madebykapec">madebykapec</h1>
+  <img class="mark" src="assets/mark.svg" width="240" height="240" alt="The madebykapec emblem: a neon hexagon around a circuit-trace K">
+  <p class="status"><span class="prompt">&gt;</span>work in progress<span class="cursor" aria-hidden="true"></span></p>
 </main>
 </body>
 </html>

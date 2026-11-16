@@ -4,7 +4,9 @@ The GitHub Pages user site of the madebykapec account: the madebykapec brand sit
 
 Google requires a home page and a privacy policy on an authorized domain before an external OAuth app can be switched to production. In Testing mode its logins expire after 7 days.
 
-- `index.html`: the brand site's home page, with a link to the privacy policy.
+- `index.html`: the brand site's home page (work in progress): the name, the emblem, a status line.
+- `assets/site.css`: the shared style (dark neon theme; animations off under `prefers-reduced-motion`).
+- `assets/mark.svg`: the emblem, also the favicon.
 - `backup/index.html`: the app's home page (Branding: Application home page, `https://madebykapec.github.io/backup/`).
 - `backup/privacy.html`: the app's privacy policy (Branding: Application privacy policy link, `https://madebykapec.github.io/backup/privacy.html`).
 
